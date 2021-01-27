@@ -97,13 +97,14 @@ pprint(loaded)
 ```
 
 Yaml прекрасно загрузился, но в виде словаря.
-Это не проблема, можно передать словарь как `**args` в конструктор и...
+Это не проблема, можно передать словарь как `**args` в конструктор:
 
 ```python
-BattleStationConfig(processor={'core_count': 8, 'manufacturer': 'Intel'}, memory_gb=8, led_color='red')
+parsed_config = BattleStationConfig(**loaded)
+pprint(parsed_config)
 ```
 
-результатом будет:
+и результатом будет:
 
 ```
 BattleStationConfig(processor={'core_count': 8, 'manufacturer': 'Intel'}, memory_gb=8, led_color='red')
