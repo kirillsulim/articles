@@ -4,6 +4,7 @@
 
 - [Strict YAML deserialization in Python with marshmallow](2021/02-Strict-YAML-deserialization-with-marshmallow/article.md)
     - [Publication in blog](http://su0.io/2020/08/05/python-strict-yaml-deserialization.html)
+    - [Publication on dev.to](https://dev.to/kirillsulim/strict-yaml-deserialization-in-python-with-marshmallow-126e)
 
 ## Russian articles
 
