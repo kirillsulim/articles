@@ -1,53 +1,59 @@
 # xy2xy - yandex inner technologies analog list
 
-TLDR: xy2xy is [repository](https://github.com/kirillsulim/xy2xy) with yandex technologies and its analogs
+TLDR: xy2xy is [repository](https://github.com/kirillsulim/xy2xy) with list of yandex inner technologies and its analogs
 
 
-## xg2xg - a simple list of inner google technologies
+## xg2xg - a list of inner google technologies
 
-Couple of years ago I found [xg2xg](https://github.com/jhuangtw/xg2xg) repository in github.
+Couple of years ago I found [xg2xg](https://github.com/jhuangtw/xg2xg) repository on github.
 I was fascinated how many projects there is inside google.
 
+This summer because of COVID-19 I've had more free time than usual and decided to create similar list for Yandex inner technologies.
+I've tried to find it, but there wasn't such list, so I've created [xy2xy repository](https://github.com/kirillsulim/xy2xy) to fill it with Yandex inner technologies list.
 I was interested why there is no list of yandex technologies.
-So I've started to check all articles in [yandex official blog](https://habr.com/ru/company/yandex/) and repositories in [yandex github page](https://github.com/yandex) and collect all technologies in list.
+I've checked articles from [yandex official blog](https://habr.com/ru/company/yandex/) and repositories in [yandex github page](https://github.com/yandex) and collect all interesting technologies in this list.
 And that was the second time to be fascinated.
 Yandex have a lot of open-source projects I didn't hear of.
 
 
 ## Markdown tables
 
-I've created my repository and started to fill tables.
-And after some time I've understood: my .md file is a mess.
-So I've tried to use HTML tables and this partially solve my problem.
-My file was huge, but I was able to understand what is the data in my table.
+At the start of my project I wanted to use .md syntax for tables as it is made such way in xg2xg.
+But after I've added a dozen of technologies to my list I understand: my .md file is a mess because of a big amount of information in each cell.
+I've tried to switch to HTML syntax for tables and this partially solve this issue.
+My file was bigger, but I was able to understand what is the data in my table.
 Then I've added commentary with column name to my `<td>` tag, and it resolves the issue.
 Now I always understand what column I edit.
 
 So I recommend to use HTML for all non-trivial markdown tables.
-Those tables are still complicated but are readable in source code.
+Those tables will be bigger, but it will also increase readability of source code.
 
 
 ## For who is xy2xy?
 
-I think there are 3 types of people who can use this list:
+There are 3 types of people that list can help:
 
-### 1. People who have worked in Yandex and now leave to another company
+### 1. Ex Yandex developers
 
-You cannot use inner Yandex technologies in another company.
-But sometimes you need any message broker or any CI server.
-It cannot be inner technology, but you can use a corresponding open-source project or commercial solution instead.
+If you've used some inner Yandex technology to solve some tasks, and then you have similar tasks outside Yandex you have to look for an alternative.
+You can use open-source project or commercial solution instead of inner Yandex technology.
 And this list can help you find alternatives.
 
-### 2. People with experience who are starting to work at yandex
+### 2. Experienced developers who are starting to work at Yandex
 
 You can use open-source technologies in Yandex of course, but in many cases inner technologies are better integrated in infrastructure.
 So try to use inner technologies if you can.
+xy2xy will help you find Yandex alternatives to technologies you have experience with.
 
-### 3. People who want to work in Yandex or any big company
+### 3. Developers who want to work at Yandex
 
-When I was starting my career it was very useful for me to understand what technologies big companies uses.
-I've started to read about continuous integration, git-flow, map-reduce and another good practices of software development, and it helped me a lot to understand what technologies should I learn to be hired.
-I think if you learn open-source analogs if Yandex inner technologies you are interested in your knowledge will help you with your career in Yandex or any big tech-company.
+When I was starting my career I was interested in technologies of big companies.
+I've read a lot about best practices of software development.
+For example, I learned about continuous integration and continuous delivery and Jenkins as an example of open-source technology which provides it.
+Also,, I've read about Map-Reduce technology and what tasks you can solve with it.
+In the log run I all helped me to understand what should I learn to be hired as a developer in big tech company. 
+
+If you learn open-source analogs of inner Yandex technologies you are interested in your knowledge will help you with your career in Yandex or any big tech company.
 
 
 ## What about NDA?
@@ -59,10 +65,6 @@ that means the company itself do not consider this technology as a part of NDA a
 
 ## Contribution
 
+If you are still interested please visit [xy2xy](https://github.com/kirillsulim/xy2xy) page.
 Feel free to add any inner Yandex technology which is not a part of NDA.
 Please follow [contribution guidelines](https://github.com/kirillsulim/xy2xy#contibuting) of the xy2xy repository.
-
-
-## Repository
-
-If you are still interested please visit [xy2xy](https://github.com/kirillsulim/xy2xy) page.
