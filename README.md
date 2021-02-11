@@ -6,9 +6,6 @@
     - [Publication in blog](http://su0.io/2020/08/05/python-strict-yaml-deserialization.html)
     - [Publication on dev.to](https://dev.to/kirillsulim/strict-yaml-deserialization-in-python-with-marshmallow-126e)
     - [Russian translation on habr.com](https://habr.com/ru/post/539600/)
-- [xy2xy - yandex inner technologies analog list](2021/03-xy2xy-yandex-technologies-analogs/en.md)
-    - [Publication in blog](http://su0.io/2021/02/10/xy2xy.html)
-    - [Publication on dev.to](https://dev.to/kirillsulim/xy2xy-yandex-inner-technologies-analog-list-12mm)
 
 ## Russian articles
 
